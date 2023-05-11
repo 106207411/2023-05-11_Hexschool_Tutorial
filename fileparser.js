@@ -4,7 +4,7 @@ const { S3Client, S3 } = require("@aws-sdk/client-s3");
 const Transform = require('stream').Transform;
 
 const region = 'us-east-1';
-const Bucket = 'hexschool-05111504';
+const Bucket = 'hexschool-05112345';
 
 const parsefile = async (req) => {
     return new Promise((resolve, reject) => {
